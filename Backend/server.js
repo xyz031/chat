@@ -32,6 +32,10 @@ app.use("/api/message", messageRoutes);
 // --------------------------deployment------------------------------
 
 
+  app.get("/", (req, res) => {
+    res.send("API is running..");
+  });
+
 
 // --------------------------deployment------------------------------
 
